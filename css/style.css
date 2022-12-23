@@ -682,8 +682,8 @@ section.contact .container .col-lg-5 button.submit{
 section.contact .container .col-lg-7.total{
   margin-top: 0px;
   display:grid;
-  grid-template-columns: repeat(2,90px);
-  grid-auto-rows: 90px;
+  grid-template-columns: repeat(2,80px);
+  grid-auto-rows: 80px;
   grid-gap:10px;
 
 }
@@ -692,19 +692,19 @@ section.contact .container .total .imgHolder:first-child{
   grid-row:1/3;
 }
 section.contact .container .total .imgHolder:first-child img{
-  height:180px;
-  width:190px;
+  height:160px;
+  width:170px;
   cursor:pointer;
   border-radius:3px;
 }
 section.contact .container .total .imgHolder:nth-child(n+2) img{
-  height:90px;
-  width:100px;
+  height:80px;
+  width:90px;
   cursor:pointer;
   border-radius:4px;
 }
 section.contact .container .total .imgHolder p.qoute{
-  font-size:10px;
+  font-size:8px;
   top:-180%;
   left:0%;
   padding-top:20%;
