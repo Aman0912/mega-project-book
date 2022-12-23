@@ -658,7 +658,7 @@ section.regularBooks .container .forShowMore{
 }
 section.contact .container input{
   padding:1px 5px;
-  width:170px;
+  width:140px;
   font-size: 15px;
 }
 section.contact .container p.name{
@@ -673,8 +673,8 @@ section.contact .container p.mail{
 }
 section.contact .container textarea{
   padding:7px 5px;
-  width:170px;
-  height:140px;
+  width:140px;
+  height:120px;
 }
 section.contact .container .col-lg-5 button.submit{
   padding:4px 8px;
@@ -682,8 +682,8 @@ section.contact .container .col-lg-5 button.submit{
 section.contact .container .col-lg-7.total{
   margin-top: 0px;
   display:grid;
-  grid-template-columns: repeat(2,110px);
-  grid-auto-rows: 110px;
+  grid-template-columns: repeat(2,90px);
+  grid-auto-rows: 90px;
   grid-gap:10px;
 
 }
@@ -692,22 +692,22 @@ section.contact .container .total .imgHolder:first-child{
   grid-row:1/3;
 }
 section.contact .container .total .imgHolder:first-child img{
-  height:220px;
-  width:230px;
+  height:180px;
+  width:190px;
   cursor:pointer;
   border-radius:3px;
 }
 section.contact .container .total .imgHolder:nth-child(n+2) img{
-  height:110px;
-  width:130px;
+  height:90px;
+  width:100px;
   cursor:pointer;
   border-radius:4px;
 }
 section.contact .container .total .imgHolder p.qoute{
-  font-size:13px;
-  top:-140%;
+  font-size:10px;
+  top:-180%;
   left:0%;
-  padding-top:25%;
+  padding-top:20%;
   padding-bottom:10px;
 }
 section.lastINFO .container{
