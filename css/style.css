@@ -633,13 +633,16 @@ section.lastINFO .container .row .col-lg-4 a i{
     height:330px;
   }
   section.slide-book-list h2.topRate{
-    font-size:35px;
+    font-size:25px;
     padding-top:15px;
     padding-left: 10px;
   }
   section.slide-book-list .total-sec{
     height:410px;
-    width:280px;
+    width:220px;
+  }
+  section.slide-book-list .all-list .total-sec .image-sec img{
+    margin-left:59px;
   }
   section.slide-book-list .all-list .total-sec .des-sec h3.book-name{
     font-size:17px;
@@ -757,7 +760,12 @@ section.lastINFO .container .col-4 .row1 .col-lg-6 img{
   margin-top:10px;
   cursor:pointer;
 }
-
+section.lastINFO{
+  width:100%;
+  height:370px;
+  background-color:#086A87;
+  color:white;
+}
 
 
 
