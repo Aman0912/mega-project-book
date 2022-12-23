@@ -640,6 +640,7 @@ section.lastINFO .container .row .col-lg-4 a i{
   section.slide-book-list .total-sec{
     height:410px;
     width:220px;
+    margin:auto;
   }
   section.slide-book-list .all-list .total-sec .image-sec img{
     margin-left:59px;
