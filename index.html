@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>বই ঘর</title>
+  <link rel="shortcut icon" type="image/x-icon" href="images/iconlogo.ico">
+
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/fontawesome.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.css">
+  <link rel="stylesheet" href="css/owl.theme.css">
+  <link rel="stylesheet" href="css/owl.transitions.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  <nav class="navbar navbar-dark  navbar-expand-md">
+    <div class="container">
+      <a href="" class="navbar-brand"><img src="images/white.png" alt=""></a>
+      <button class="navbar-toggler navbar-toggler-right" data-bs-toggle="collapse" data-bs-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#top-rated" class="nav-link">Top Books</a></li>
+          <li class="nav-item"><a href="#books" class="nav-link">Books</a></li>
+          <li class="nav-item"><a href="" class="nav-link">Contact Us</a></li>
+          <li class="nav-item"><a href="" class="nav-link">Author</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="caro">
+    <div class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner" role='listbox'>
+        <div class="carousel-item active"><img src="images/book1.jpg" alt="" class="d-block img-fluid"></div>
+        <div class="carousel-item"><img src="images/book2.jpg" alt="" class="d-block img-fluid"></div>
+        <div class="carousel-item"><img src="images/book3.jpg" alt="" class="d-block img-fluid"></div>
+        <div class="carousel-item"><img src="images/book4.jpg" alt="" class="d-block img-fluid"></div>
+      </div>
+    </div>
+  </section>
+
+<section class="slide-book-list">
+  <h2 class="topRate">Top Rated Books</h2>
+  <div class="all-list">
+  <div class="total-sec">
+    <div class="image-sec">
+      <i id="forReduce" class="fa fa-heart love1" aria-hidden="true" onclick="addLoveValue();reduceIfChange()"></i>
+      <img src="images/et.jpeg" alt="">
+      <p class="off">27% OFF</p>
+    </div>
+    <div class="des-sec">
+      <p class="rate"><i class="fa fa-star" aria-hidden="true"></i> 4.8</p>
+      <p class="stock"><i class="fa fa-shopping-cart" aria-hidden="true"></i> In Stock</p>
+      <h3 class="book-name">Michir Ali Somogro</h3>
+      <p class="writter">Humayon Ahmed</p>
+      <p class="prev-price">
+        <s>755&#2547;</s>
+        <p class="now-price">400&#2547;</p>
+        <hr>
+        <p class="glimps"></p>
+        <p class="add-cart" onclick='addCartValue()'><i class="fa fa-cart-plus" aria-hidden="true"></i>Add</p>
+      </p>
+    </div>
+  </div>
+  <div class="total-sec">
+    <div class="image-sec">
+      <i id="forReduce1" class="fa fa-heart love2" aria-hidden="true" onclick="addLoveValue();reduceIfChange1()"></i>
+      <img src="images/bt.jpg" alt="">
+      <p class="off">27% OFF</p>
+    </div>
+    <div class="des-sec">
+      <p class="rate"><i class="fa fa-star" aria-hidden="true"></i> 4.8</p>
+      <p class="stock"><i class="fa fa-shopping-cart" aria-hidden="true"></i> In Stock</p>
+      <h3 class="book-name">Michir Ali Somogro</h3>
+      <p class="writter">Humayon Ahmed</p>
+      <p class="prev-price">
+        <s>755&#2547;</s>
+        <p class="now-price">400&#2547;</p>
+        <hr>
+        <p class="glimps"></p>
+        <p class="add-cart" onclick='addCartValue()'><i class="fa fa-cart-plus" aria-hidden="true"></i> Add</p>
+      </p>
+    </div>
+  </div>
+  <div class="total-sec">
+    <div class="image-sec">
+      <i id="forReduce2" class="fa fa-heart love3" aria-hidden="true" onclick="addLoveValue();reduceIfChange2()"></i>
+      <img src="images/ct.jpg" alt="">
+      <p class="off">27% OFF</p>
+    </div>
+    <div class="des-sec">
+      <p class="rate"><i class="fa fa-star" aria-hidden="true"></i> 4.8</p>
+      <p class="stock"><i class="fa fa-shopping-cart" aria-hidden="true"></i> In Stock</p>
+      <h3 class="book-name">Michir Ali Somogro</h3>
+      <p class="writter">Humayon Ahmed</p>
+      <p class="prev-price">
+        <s>755&#2547;</s>
+        <p class="now-price">400&#2547;</p>
+        <hr>
+        <p class="glimps"></p>
+        <p class="add-cart" onclick='addCartValue()'><i class="fa fa-cart-plus" aria-hidden="true"></i> Add</p>
+      </p>
+    </div>
+  </div>
+  <div class="total-sec">
+    <div class="image-sec">
+      <i id="forReduce3" class="fa fa-heart love4" aria-hidden="true" onclick="addLoveValue();reduceIfChange3()"></i>
+      <img src="images/dt.jpg" alt="">
+      <p class="off">27% OFF</p>
+    </div>
+    <div class="des-sec">
+      <p class="rate"><i class="fa fa-star" aria-hidden="true"></i> 4.8</p>
+      <p class="stock"><i class="fa fa-shopping-cart" aria-hidden="true"></i> In Stock</p>
+      <h3 class="book-name">Michir Ali Somogro</h3>
+      <p class="writter">Humayon Ahmed</p>
+      <p class="prev-price">
+        <s>755&#2547;</s>
+        <p class="now-price">400&#2547;</p>
+        <hr>
+        <p class="glimps"></p>
+        <p class="add-cart" onclick='addCartValue()'><i class="fa fa-cart-plus" aria-hidden="true"></i> Add</p>
+      </p>
+    </div>
+  </div>
+  <div class="total-sec">
+    <div class="image-sec">
+      <i id="forReduce4" class="fa fa-heart love5" aria-hidden="true" onclick="addLoveValue();reduceIfChange4()"></i>
+      <img src="images/ft.jpg" alt="">
+      <p class="off">27% OFF</p>
+    </div>
+    <div class="des-sec">
+      <p class="rate"><i class="fa fa-star" aria-hidden="true"></i> 4.8</p>
+      <p class="stock"><i class="fa fa-shopping-cart" aria-hidden="true"></i> In Stock</p>
+      <h3 class="book-name">Michir Ali Somogro</h3>
+      <p class="writter">Humayon Ahmed</p>
+      <p class="prev-price">
+        <s>755&#2547;</s>
+        <p class="now-price">400&#2547;</p>
+        <hr>
+        <p class="glimps"></p>
+        <p class="add-cart" onclick='addCartValue()'><i class="fa fa-cart-plus" aria-hidden="true"></i> Add</p>
+      </p>
+    </div>
+  </div>
+  <div class="total-sec">
+    <div class="image-sec">
+      <i id="forReduce5" class="fa fa-heart love6" aria-hidden="true" onclick="addLoveValue();reduceIfChange5()"></i>
+      <img src="images/gt.jpg" alt="">
+      <p class="off">27% OFF</p>
+    </div>
+    <div class="des-sec">
+      <p class="rate"><i class="fa fa-star" aria-hidden="true"></i> 4.8</p>
+      <p class="stock"><i class="fa fa-shopping-cart" aria-hidden="true"></i> In Stock</p>
+      <h3 class="book-name">Michir Ali Somogro</h3>
+      <p class="writter">Humayon Ahmed</p>
+      <p class="prev-price">
+        <s>755&#2547;</s>
+        <p class="now-price">400&#2547;</p>
+        <hr>
+        <p class="glimps"></p>
+        <p class="add-cart" onclick='addCartValue()'><i class="fa fa-cart-plus" aria-hidden="true"></i> Add</p>
+      </p>
+    </div>
+  </div>
+  <div class="total-sec">
+    <div class="image-sec">
+      <i id="forReduce6" class="fa fa-heart love7" aria-hidden="true" onclick="addLoveValue();reduceIfChange6()"></i>
+      <img src="images/ht.jpg" alt="">
+      <p class="off">27% OFF</p>
+    </div>
+    <div class="des-sec">
+      <p class="rate"><i class="fa fa-star" aria-hidden="true"></i> 4.8</p>
+      <p class="stock"><i class="fa fa-shopping-cart" aria-hidden="true"></i> In Stock</p>
+      <h3 class="book-name">Michir Ali Somogro</h3>
+      <p class="writter">Humayon Ahmed</p>
+      <p class="prev-price">
+        <s>755&#2547;</s>
+        <p class="now-price">400&#2547;</p>
+        <hr>
+        <p class="glimps"></p>
+        <p class="add-cart" onclick='addCartValue()'><i class="fa fa-cart-plus" aria-hidden="true"></i> Add</p>
+      </p>
+    </div>
+  </div>
+  </div>
+  <div class="allIndicator">
+    <p class="love"><i class="fa fa-heart loveIndi" aria-hidden="true"></i><sup id="totalLove">0</sup></p>
+    <p class="cart"><i class="fa fa-shopping-cart cartIndi" aria-hidden="true"></i><sup id="cart-value">0</sup></p>
+    <a href="tel:01750060685"><i class="fa fa-phone" aria-hidden="true"></i></a>
+  </div>
+</section>
+
+<section class="regularBooks">
+  <h3 class="regularBook"><i class="fa fa-book" aria-hidden="true"></i> Books</h3>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-sm-4 col-6">
+        <div class="img-section">
+          <i id="forAllBook1" class="fa fa-heart loveMid1" aria-hidden="true" onclick="addLoveValue();loveAtmid()"></i>
+            <img src="images/am.jpg" alt="" class="book">
+          <p class="offMark">20% OFF</p>
+        </div>
+        <div class="descript-section">
+          <p class="starOfThis">
+            <i class="fa fa-star" aria-hidden="true"></i> 3.9
+          </p>
+          <p class="availOrNot">
+            <i class="fa fa-shopping-cart"></i> In Stock
+          </p>
+          <h2 class="bookTitle">Putuler Nacher Itihash</h2>
+          <p class="writterThis">Manik Bondopaddhai</p>
+          <p class="prePrice"><s class="pre">420&#2547;</s></p>
+          <p class="newPrice">375&#2547;</p>   <p class="cartAdd" id="cartMid"onclick="addCartValue()"><i class="fa fa-cart-plus"></i></p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-4 col-6">
+        <div class="img-section">
+          <i id="forAllBook2" class="fa fa-heart loveMid2" aria-hidden="true" onclick="addLoveValue();loveAtmid2()"></i>
+          <img src="images/bm.png" alt="" class="book">
+          <p class="offMark">20% OFF</p>
+        </div>
+        <div class="descript-section">
+          <p class="starOfThis">
+            <i class="fa fa-star" aria-hidden="true"></i>
+             4.1
+          </p>
+          <p class="availOrNot">
+            <i class="fa fa-shopping-cart"></i> In Stock
+          </p>
+          <h2 class="bookTitle">Joy Baba Felunath</h2>
+          <p class="writterThis">Satyajit Ray</p>
+          <p class="newPrice">375&#2547;</p>
+          <p class="prePrice"><s class="pre">420&#2547;</s></p>   <p class="cartAdd" id="cartMid"onclick="addCartValue()"><i class="fa fa-cart-plus"></i></p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-4 col-6">
+        <div class="img-section">
+          <i id="forAllBook3" class="fa fa-heart loveMid3" aria-hidden="true" onclick="addLoveValue();loveAtmid3()"></i>
+          <img src="images/cm.jpg" alt="" class="book">
+          <p class="offMark">20% OFF</p>
+        </div>
+        <div class="descript-section">
+          <p class="starOfThis">
+            <i class="fa fa-star" aria-hidden="true"></i>
+             4.1
+          </p>
+          <p class="availOrNot">
+            <i class="fa fa-shopping-cart"></i> In Stock
+          </p>
+          <h2 class="bookTitle">Nupur Gatha</h2>
+          <p class="writterThis">Subramanian Krishnamurthy</p>
+          <p class="newPrice">375&#2547;</p>
+          <p class="prePrice"><s class="pre">420&#2547;</s></p>   <p class="cartAdd" id="cartMid"onclick="addCartValue()"><i class="fa fa-cart-plus"></i></p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-4 col-6">
+        <div class="img-section">
+          <i id="forAllBook4" class="fa fa-heart loveMid4" aria-hidden="true" onclick="addLoveValue();loveAtmid4()"></i>
+          <img src="images/dm.jpg" alt="" class="book">
+          <p class="offMark">20% OFF</p>
+        </div>
+        <div class="descript-section">
+          <p class="starOfThis">
+            <i class="fa fa-star" aria-hidden="true"></i>
+             4.1
+          </p>
+          <p class="availOrNot">
+            <i class="fa fa-shopping-cart"></i> In Stock
+          </p>
+          <h2 class="bookTitle">Srestho Golpo</h2>
+          <p class="writterThis">Bonoful</p>
+          <p class="newPrice">375&#2547;</p>
+          <p class="prePrice"><s class="pre">420&#2547;</s></p>   <p class="cartAdd" id="cartMid"onclick="addCartValue()"><i class="fa fa-cart-plus"></i></p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-4 col-6 forHide">
+        <div class="img-section">
+          <i id="forAllBook5" class="fa fa-heart loveMid5" aria-hidden="true" onclick="addLoveValue();loveAtmid5()"></i>
+          <img src="images/em.jpg" alt="" class="book">
+          <p class="offMark">20% OFF</p>
+        </div>
+        <div class="descript-section">
+          <p class="starOfThis">
+            <i class="fa fa-star" aria-hidden="true"></i>
+             4.1
+          </p>
+          <p class="availOrNot">
+            <i class="fa fa-shopping-cart"></i> In Stock
+          </p>
+          <h2 class="bookTitle">Fairy Tale</h2>
+          <p class="writterThis">Stephen King</p>
+          <p class="newPrice">375&#2547;</p>
+          <p class="prePrice"><s class="pre">420&#2547;</s></p>   <p class="cartAdd" id="cartMid"onclick="addCartValue()"><i class="fa fa-cart-plus"></i></p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-4 col-6 forHide">
+        <div class="img-section">
+          <i id="forAllBook6" class="fa fa-heart loveMid6" aria-hidden="true" onclick="addLoveValue();loveAtmid6()"></i>
+          <img src="images/fm.jpg" alt="" class="book">
+          <p class="offMark">20% OFF</p>
+        </div>
+        <div class="descript-section">
+          <p class="starOfThis">
+            <i class="fa fa-star" aria-hidden="true"></i>
+             4.1
+          </p>
+          <p class="availOrNot">
+            <i class="fa fa-shopping-cart"></i> In Stock
+          </p>
+          <h2 class="bookTitle">The Dark Fairy</h2>
+          <p class="writterThis">Nick Leja</p>
+          <p class="newPrice">375&#2547;</p>
+          <p class="prePrice"><s class="pre">420&#2547;</s></p>   <p class="cartAdd" id="cartMid"onclick="addCartValue()"><i class="fa fa-cart-plus"></i></p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-4 col-6 forHide">
+        <div class="img-section">
+          <i id="forAllBook7" class="fa fa-heart loveMid7" aria-hidden="true" onclick="addLoveValue();loveAtmid7()"></i>
+          <img src="images/gm.jpg" alt="" class="book">
+          <p class="offMark">20% OFF</p>
+        </div>
+        <div class="descript-section">
+          <p class="starOfThis">
+            <i class="fa fa-star" aria-hidden="true"></i>
+             4.1
+          </p>
+          <p class="availOrNot">
+            <i class="fa fa-shopping-cart"></i> In Stock
+          </p>
+          <h2 class="bookTitle">Heart Spring Mountain</h2>
+          <p class="writterThis">Robin MacArthur</p>
+          <p class="newPrice">375&#2547;</p>
+          <p class="prePrice"><s class="pre">420&#2547;</s></p>   <p class="cartAdd" id="cartMid"onclick="addCartValue()"><i class="fa fa-cart-plus"></i></p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-4 col-6 forHide">
+        <div class="img-section">
+          <i id="forAllBook8" class="fa fa-heart loveMid8" aria-hidden="true" onclick="addLoveValue();loveAtmid8()"></i>
+          <img src="images/hm.jpg" alt="" class="book">
+          <p class="offMark">20% OFF</p>
+        </div>
+        <div class="descript-section">
+          <p class="starOfThis">
+            <i class="fa fa-star" aria-hidden="true"></i>
+             4.1
+          </p>
+          <p class="availOrNot">
+            <i class="fa fa-shopping-cart"></i> In Stock
+          </p>
+          <h2 class="bookTitle">The Art Of War</h2>
+          <p class="writterThis">Sun Tzu</p>
+          <p class="newPrice">375&#2547;</p>
+          <p class="prePrice"><s class="pre">420&#2547;</s></p>   <p class="cartAdd" id="cartMid"onclick="addCartValue()"><i class="fa fa-cart-plus"></i></p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-4 col-6 forHide">
+        <div class="img-section">
+          <i id="forAllBook9" class="fa fa-heart loveMid9" aria-hidden="true" onclick="addLoveValue();loveAtmid9()"></i>
+          <img src="images/im.jpg" alt="" class="book">
+          <p class="offMark">20% OFF</p>
+        </div>
+        <div class="descript-section">
+          <p class="starOfThis">
+            <i class="fa fa-star" aria-hidden="true"></i>
+             4.1
+          </p>
+          <p class="availOrNot">
+            <i class="fa fa-shopping-cart"></i> In Stock
+          </p>
+          <h2 class="bookTitle">Harry Potter & The Deadly Hallows</h2>
+          <p class="writterThis">J.K. Rowling</p>
+          <p class="newPrice">375&#2547;</p>
+          <p class="prePrice"><s class="pre">420&#2547;</s></p>   <p class="cartAdd" id="cartMid"onclick="addCartValue()"><i class="fa fa-cart-plus"></i></p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-4 col-6 forHide">
+        <div class="img-section">
+          <i id="forAllBook10" class="fa fa-heart loveMid10" aria-hidden="true" onclick="addLoveValue();loveAtmid10()"></i>
+          <img src="images/jm.jpg" alt="" class="book">
+          <p class="offMark">20% OFF</p>
+        </div>
+        <div class="descript-section">
+          <p class="starOfThis">
+            <i class="fa fa-star" aria-hidden="true"></i>
+             4.1
+          </p>
+          <p class="availOrNot">
+            <i class="fa fa-shopping-cart"></i> In Stock
+          </p>
+          <h2 class="bookTitle">Harry Potter &  The Order Of The Phoenix</h2>
+          <p class="writterThis">J.K. Rowling</p>
+          <p class="newPrice">375&#2547;</p>
+          <p class="prePrice"><s class="pre">420&#2547;</s></p>   <p class="cartAdd" id="cartMid"onclick="addCartValue()"><i class="fa fa-cart-plus"></i></p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-4 col-6 forHide">
+        <div class="img-section">
+          <i id="forAllBook11" class="fa fa-heart loveMid11" aria-hidden="true" onclick="addLoveValue();loveAtmid11()"></i>
+          <img src="images/km.jpg" alt="" class="book">
+          <p class="offMark">20% OFF</p>
+        </div>
+        <div class="descript-section">
+          <p class="starOfThis">
+            <i class="fa fa-star" aria-hidden="true"></i>
+             4.1
+          </p>
+          <p class="availOrNot">
+            <i class="fa fa-shopping-cart"></i> In Stock
+          </p>
+          <h2 class="bookTitle">Harry Potter & The Half Blood Prince</h2>
+          <p class="writterThis">J.K. Rowling</p>
+          <p class="newPrice">375&#2547;</p>
+          <p class="prePrice"><s class="pre">420&#2547;</s></p>
+            <p class="cartAdd" id="cartMid"onclick="addCartValue()"><i class="fa fa-cart-plus"></i></p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-4 col-6 forHide">
+        <div class="img-section">
+          <i id="forAllBook12" class="fa fa-heart loveMid12" aria-hidden="true" onclick="addLoveValue();loveAtmid12()"></i>
+          <img src="images/lm.jpg" alt="" class="book">
+          <p class="offMark">20% OFF</p>
+        </div>
+        <div class="descript-section">
+          <p class="starOfThis">
+            <i class="fa fa-star" aria-hidden="true"></i>
+             4.1
+          </p>
+          <p class="availOrNot">
+            <i class="fa fa-shopping-cart"></i> In Stock
+          </p>
+          <h2 class="bookTitle">Jongole Jento Pathor</h2>
+          <p class="writterThis">Tridib Kumar Chottopaddhoi</p>
+          <p class="newPrice">375&#2547;</p>
+          <p class="prePrice"><s class="pre">420&#2547;</s></p>
+          <p class="cartAdd" id="cartMid" onclick="addCartValue()"><i class="fa fa-cart-plus"></i></p>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="forShowMore" onclick="hideRegularBooks()">
+    <p id="showLess" class="more">Show More</p><i class="fa fa-arrow-right rot" aria-hidden="true"></i>
+    </div>
+  </div>
+</section>
+<section class="contact">
+  <div class="container">
+    <h2 class="contactUs">Contact Us</h2>
+    <hr>
+    <div class="row">
+    <div class="col-lg-5 col-5">
+    <p class="name"><label for="name">Name</label></p>
+    <input type="text" class="nameEnter" id="name" placeholder="Name">
+    <p class="mail"><label for="Email">Email</label></p>
+    <input type="text" class="mail" id="Email" placeholder="Email">
+    <p class="msg"><label for="text">Message</label></p>
+    <textarea name=""  cols="30" rows="10" class="message" id="text"placeholder="Message"></textarea>
+    <button class="submit">Submit</button>
+    </div>
+    <div class="col-lg-7 col-7 total">
+        <div class="imgHolder"><img src="images/ab.jpg" alt="">
+        <p class="qoute">"A reader lives a thousand lives before he dies. The man who never reads lives only one"</p>
+        </div>
+        <div class="imgHolder"><img src="images/bb.jpg" alt="">
+        <p class="qoute">"Books are a uniquely portable magic."</p>
+        </div>
+        <div class="imgHolder"><img src="images/cb.jpg" alt="">
+        <p class="qoute">"There is no Frigate like a Book To take us Lands away."</p>
+        </div>
+        <div class="imgHolder"><img src="images/db.jpg" alt="">
+        <p class="qoute">“Today a reader, tomorrow a leader.” - Margaret Fuller</p>
+        </div>
+        <div class="imgHolder"><img src="images/eb.jpg" alt="">
+        <p class="qoute">"Today a reader, tomorrow a leader." – Margaret Fuller
+        </p>
+        </div>
+    </div>
+    </div>
+  </div>
+</section>
+<section class="lastINFO">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-4">
+        <h2 class="customerCare">Customer Care</h2>
+        <p class="hc">Help Center</p>
+        <p class="Hb">How to Buy</p>
+        <p class="rr">Returns & Refunds</p>
+        <p class="cu">Contact Us</p>
+        <p class="tc">Terms & Conditions</p>
+        <h2 class="earn">Earn With Daraz</h2>
+        <p class="sell">Sell on Daraz</p>
+        <p class="cc">Code of Conduct</p>
+      </div>
+      <div class="col-lg-4 col-4">
+        <h2 class="boiGhor">Boi Ghor</h2>
+        <p class="about">About Boi Ghor</p>
+        <p class="pay">Digital Payments</p>
+        <p class="app">Boi Ghor App</p>
+        <p class="job">Join Us</p>
+        <div class="followUs">
+          <h3 class="follow">Follow Us</h3>
+          <a href="www.facebook.com" class="link"><i class="fab fa-facebook"></i></a><a href="www.youtube.com" class="link"><i class="fab fa-youtube"></i></a><a href="www.instagram.com" class="link"><i class="fab fa-instagram"></i></a><a href="www.whatsapp.com" class="link"><i class="fab fa-whatsapp"></i></a>
+        </div>
+
+      </div>
+      <div class="col-lg-4 col-4">
+        <img src="images/white.png" alt="" class="logoOurs">
+        <p class="happy">Happy Reading</p>
+        <p class="download">Download App</p>
+        <div class="row row1">
+          <div class="col-lg-6"><img src="images/apple.png" alt="" class="appStore"></div>
+          <div class="col-lg-6"><img src="images/google.png" alt="" class="appStore"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="js/main.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script>src="js/jquery.counterup.js"</script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/jquery.js"></script>
+  <script type="text/javascript">
+  function addLoveValue(){
+    var addlove=document.getElementById('totalLove').innerHTML;
+    var readAddLove=parseInt(addlove);
+    var totalOne=readAddLove+1;
+    document.getElementById("totalLove").innerHTML=totalOne;
+    var nowValueLove=document.getElementById('totalLove').innerHTML;
+  if(nowValueLove>0){
+    $('.loveIndi').css("color","red");};};
+
+    function addCartValue(){
+      var cartValue= document.getElementById('cart-value').innerHTML;
+      var intCartValue=parseInt(cartValue);
+      var newCartValue=intCartValue+1;
+      document.getElementById("cart-value").innerHTML=newCartValue;
+      var valueCartFinal=document.getElementById('cart-value').innerHTML;
+      if(valueCartFinal>0){
+        $('.cartIndi').css("color","#01DFD7");
+      };};
+      function reduceIfChange(){
+        if($('#forReduce').hasClass('color')){
+          var reduce=document.getElementById('totalLove').innerHTML;
+          var reduceInt= parseInt(reduce);
+          var reduceNow=reduceInt-2;
+          document.getElementById('totalLove').innerHTML=reduceNow;
+        };
+      };
+      function reduceIfChange1(){
+        if($('#forReduce1').hasClass('color')){
+          var reduce=document.getElementById('totalLove').innerHTML;
+          var reduceInt= parseInt(reduce);
+          var reduceNow=reduceInt-2;
+          document.getElementById('totalLove').innerHTML=reduceNow;
+        };
+      };
+
+      function reduceIfChange2(){
+        if($('#forReduce2').hasClass('color')){
+          var reduce=document.getElementById('totalLove').innerHTML;
+          var reduceInt= parseInt(reduce);
+          var reduceNow=reduceInt-2;
+          document.getElementById('totalLove').innerHTML=reduceNow;
+        };
+      };
+
+      function reduceIfChange3(){
+        if($('#forReduce3').hasClass('color')){
+          var reduce=document.getElementById('totalLove').innerHTML;
+          var reduceInt= parseInt(reduce);
+          var reduceNow=reduceInt-2;
+          document.getElementById('totalLove').innerHTML=reduceNow;
+        };
+      };
+
+      function reduceIfChange4(){
+        if($('#forReduce4').hasClass('color')){
+          var reduce=document.getElementById('totalLove').innerHTML;
+          var reduceInt= parseInt(reduce);
+          var reduceNow=reduceInt-2;
+          document.getElementById('totalLove').innerHTML=reduceNow;
+        };
+      };
+
+      function reduceIfChange5(){
+        if($('#forReduce5').hasClass('color')){
+          var reduce=document.getElementById('totalLove').innerHTML;
+          var reduceInt= parseInt(reduce);
+          var reduceNow=reduceInt-2;
+          document.getElementById('totalLove').innerHTML=reduceNow;
+        };
+      };
+
+      function reduceIfChange6(){
+        if($('#forReduce6').hasClass('color')){
+          var reduce=document.getElementById('totalLove').innerHTML;
+          var reduceInt= parseInt(reduce);
+          var reduceNow=reduceInt-2;
+          document.getElementById('totalLove').innerHTML=reduceNow;
+        };
+      };
+  function loveAtmid(){
+  if($('.loveMid1').hasClass("loveMid")){
+    var lovMidRed=document.getElementById('totalLove').innerHTML;
+    var intMid=parseInt(lovMidRed);
+    var newMidValue=intMid-2;
+    document.getElementById('totalLove').innerHTML=newMidValue;
+  };};
+
+  function loveAtmid2(){
+  if($('.loveMid2').hasClass("loveMid")){
+    var lovMidRed=document.getElementById('totalLove').innerHTML;
+    var intMid=parseInt(lovMidRed);
+    var newMidValue=intMid-2;
+    document.getElementById('totalLove').innerHTML=newMidValue;
+  };};
+  function loveAtmid3(){
+  if($('.loveMid3').hasClass("loveMid")){
+    var lovMidRed=document.getElementById('totalLove').innerHTML;
+    var intMid=parseInt(lovMidRed);
+    var newMidValue=intMid-2;
+    document.getElementById('totalLove').innerHTML=newMidValue;
+  };};
+  function loveAtmid4(){
+  if($('.loveMid4').hasClass("loveMid")){
+    var lovMidRed=document.getElementById('totalLove').innerHTML;
+    var intMid=parseInt(lovMidRed);
+    var newMidValue=intMid-2;
+    document.getElementById('totalLove').innerHTML=newMidValue;
+  };};
+  function loveAtmid5(){
+  if($('.loveMid5').hasClass("loveMid")){
+    var lovMidRed=document.getElementById('totalLove').innerHTML;
+    var intMid=parseInt(lovMidRed);
+    var newMidValue=intMid-2;
+    document.getElementById('totalLove').innerHTML=newMidValue;
+  };};
+  function loveAtmid6(){
+  if($('.loveMid6').hasClass("loveMid")){
+    var lovMidRed=document.getElementById('totalLove').innerHTML;
+    var intMid=parseInt(lovMidRed);
+    var newMidValue=intMid-2;
+    document.getElementById('totalLove').innerHTML=newMidValue;
+  };};
+  function loveAtmid7(){
+  if($('.loveMid7').hasClass("loveMid")){
+    var lovMidRed=document.getElementById('totalLove').innerHTML;
+    var intMid=parseInt(lovMidRed);
+    var newMidValue=intMid-2;
+    document.getElementById('totalLove').innerHTML=newMidValue;
+  };};
+  function loveAtmid8(){
+  if($('.loveMid8').hasClass("loveMid")){
+    var lovMidRed=document.getElementById('totalLove').innerHTML;
+    var intMid=parseInt(lovMidRed);
+    var newMidValue=intMid-2;
+    document.getElementById('totalLove').innerHTML=newMidValue;
+  };};
+  function loveAtmid9(){
+  if($('.loveMid9').hasClass("loveMid")){
+    var lovMidRed=document.getElementById('totalLove').innerHTML;
+    var intMid=parseInt(lovMidRed);
+    var newMidValue=intMid-2;
+    document.getElementById('totalLove').innerHTML=newMidValue;
+  };};
+  function loveAtmid10(){
+  if($('.loveMid10').hasClass("loveMid")){
+    var lovMidRed=document.getElementById('totalLove').innerHTML;
+    var intMid=parseInt(lovMidRed);
+    var newMidValue=intMid-2;
+    document.getElementById('totalLove').innerHTML=newMidValue;
+  };};
+  function loveAtmid11(){
+  if($('.loveMid11').hasClass("loveMid")){
+    var lovMidRed=document.getElementById('totalLove').innerHTML;
+    var intMid=parseInt(lovMidRed);
+    var newMidValue=intMid-2;
+    document.getElementById('totalLove').innerHTML=newMidValue;
+  };};
+  function loveAtmid12(){
+  if($('.loveMid12').hasClass("loveMid")){
+    var lovMidRed=document.getElementById('totalLove').innerHTML;
+    var intMid=parseInt(lovMidRed);
+    var newMidValue=intMid-2;
+    document.getElementById('totalLove').innerHTML=newMidValue;
+  };};
+
+  function hideRegularBooks(){
+    $('.forHide').toggle();
+    $('section.regularBooks').toggleClass('neew')
+  $('.rot').toggleClass('changeRot');
+  if($('.rot').hasClass('changeRot')){
+    document.getElementById('showLess').innerHTML="Show Less";
+  } else{
+    document.getElementById('showLess').innerHTML="Show More";
+  };
+  };
+
+
+
+
+
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,772 @@
+html{
+  padding:0px;
+  margin:0px;
+}
+nav{
+  padding:0px !important;
+  background-color: #065c5f !important;
+}
+nav img{
+  width:70px;
+  height:70px;
+}
+
+nav ul li:last-child{
+  padding-bottom: 15px;
+}
+
+nav ul li:after{
+  content:"";
+  display: block;
+  clear: both;
+  width:0px;
+  height:2px;
+  background-color: white;
+  transition: width .6s;
+}
+nav ul li:hover:after{
+  width:100%;
+  height:2px;
+  background-color:white;
+  transition: width .6s;
+}
+
+section.caro{
+  width:100%;
+  height:520px;
+}
+section.caro img{
+  width:100%;
+  height:520px;
+}
+section.slide-book-list{
+  width:100%;
+  height:580px;
+  background-color: #F9EBEA;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.all-list{
+  width:80%;
+  margin:auto;
+}
+.owl-pagination .owl-page.active span{
+  background-color: #58FAF4;
+}
+section.slide-book-list h2.topRate{
+  font-family: 'Brush Script MT', cursive;
+  text-align: center;
+  font-size: 42px;
+  padding-top:15px;
+  padding-left: 20px;
+}
+section.slide-book-list .total-sec{
+  height:450px;
+  width:290px;
+  background: #00FFBF;
+  border-radius: 5px;
+  margin:auto;
+  cursor:pointer;
+}
+section.slide-book-list .total-sec:hover{
+  box-shadow:3px 4px 14px;
+  transition:.2s;
+}
+section.slide-book-list .allIndicator{
+width:50px;
+height:140px;
+background:#FE642E;
+border-radius:4px;
+color:white;
+z-index: 2;
+position:fixed;
+right:18px;
+bottom:35px;
+}
+section.slide-book-list p.love{
+  padding-top:10px;
+  padding-left:10px;
+  font-size:19px;
+  cursor:pointer;
+}
+section.slide-book-list p.cart{
+  padding-left:10px;
+  font-size:19px;
+  cursor:pointer;
+}
+section.slide-book-list a{
+  text-decoration:none;
+  color:white;
+  padding-left:12px;
+  font-size:19px;
+}
+section.slide-book-list p.love:hover .fa-heart{
+color:#FF0000;
+transition:.6s;
+}
+section.slide-book-list p.cart:hover .fa-shopping-cart{
+color:#2EFEF7;
+transition:.6s;
+}
+section.slide-book-list a:hover .fa-phone{
+color:#5858FA;
+transition:.6s;
+}
+section.slide-book-list .all-list .total-sec .image-sec{
+  width:100%;
+  height:50%;
+}
+section.slide-book-list .all-list .total-sec .des-sec:after{
+  content:"";
+  display: block;
+  clear:both;
+}
+section.slide-book-list .all-list .total-sec .des-sec p.rate{
+  padding:10px;
+  width:50%;
+  float:left;
+  text-align:center;
+  font-size:15px;
+  color:white;
+  margin-bottom: 0px;
+
+}
+section.slide-book-list .all-list .total-sec .des-sec p.stock{
+  padding:10px;
+  width:50%;
+  float:right;
+  text-align:center;
+  color:white;
+  margin-bottom: 0px;
+}
+
+section.slide-book-list .all-list .total-sec:hover p.rate{
+  color:gold;
+  transition:.6s;
+}
+section.slide-book-list .all-list .total-sec:hover p.stock{
+  color:#FE642E;
+  transition:.6s;
+}
+section.slide-book-list .all-list .total-sec .des-sec h3.book-name{
+  color:#FAAC58;
+  font-size:20px;
+  display: inline-block;
+  margin-left: 22%;
+
+}
+section.slide-book-list .all-list .total-sec:hover h3.book-name{
+  color:#FF4000;
+  transition:.6s;
+}
+section.slide-book-list .all-list .total-sec .des-sec p.writter{
+  color:#FE2E2E;
+  text-align:center;
+}
+section.slide-book-list .all-list .total-sec:hover p.writter{
+  color:white;
+  transition: .6s;
+  font-size:17px;
+}
+section.slide-book-list .all-list .total-sec .des-sec p.prev-price{
+  color:#848484;
+  width:50%;
+  text-align: right;
+  font-size: 17px;
+  float:left;
+}
+
+section.slide-book-list .all-list .total-sec .des-sec p.now-price{
+  color:#F8E0E0;
+  width:50%;
+  text-align: left;
+  font-size: 17px;
+  padding-left: 14px;
+  float: right;
+}
+section.slide-book-list .all-list .total-sec .des-sec .add-cart{
+  color:white;
+  font-size: 15px;
+  margin-left:40%;
+  border:1px solid #FF4000;
+  background: #DF3A01;
+  border-radius:3px;
+  display:inline-block;
+  padding: 5px 10px;
+}
+section.slide-book-list .all-list .total-sec .des-sec .add-cart:hover{
+  background: transparent;
+  transition:.6s;
+  color:#FF4000;
+  cursor:wait;
+}
+section.slide-book-list .all-list .total-sec .image-sec img{
+  width:50%;
+  height:90%;
+  margin-left:79px;
+  margin-top:20px;
+}
+section.slide-book-list .all-list .total-sec .image-sec{
+  position:relative;
+}
+section.slide-book-list .all-list .total-sec .image-sec i{
+  position:absolute;
+  top:20px;
+  left:20px;
+  font-size: 25px;
+  color:white;
+}
+section.slide-book-list .all-list .total-sec .image-sec{
+  position:relative;
+  overflow: hidden;
+}
+section.slide-book-list .all-list .total-sec .image-sec p.off{
+  color:white;
+  position:absolute;
+  top:-67px;
+  right:-45px;
+  height:120px;
+  width:120px;
+  background: #FE642E;
+  border-radius:50%;
+  padding:49px 28px;
+}
+section.slide-book-list .all-list .total-sec:hover .image-sec p.off{
+  top:-37px;
+  right:-21px;
+  transition:.6s;
+
+}
+section.slide-book-list .all-list .total-sec .image-sec i.color{
+  color:red;
+  transition:.6s;
+}
+section.slide-book-list .allIndicator sup{
+  margin-left:3px;
+}
+
+section.regularBooks{
+  width:100%;
+  height:610px;
+  background-color: #F5ECCE;
+}
+section.regularBooks.neew{
+    height:1440px;
+}
+section.regularBooks h3.regularBook{
+  padding:30px 30px;
+  color:#0B4C5F;
+  font-family: "Brush Script MT", cursive;
+  font-size:42px;
+}
+section.regularBooks .container{
+  margin:auto;
+}
+section.regularBooks .container .row .col-lg-3{
+  height:400px;
+  width:240px;
+  margin: auto;
+  margin-bottom:20px;
+  background: #FE9A2E;
+  border-radius: 7px;
+  cursor:pointer;
+}
+section.regularBooks .container .row .col-lg-3:hover{
+  box-shadow:5px 5px 16px;
+  transition:.2s;
+}
+section.regularBooks .container .row .col-lg-3 .img-section{
+  height:60%;
+}
+section.regularBooks .container .row .col-lg-3 .img-section img{
+  height:77%;
+  width:60%;
+  margin:auto;
+  margin:40px 39px;
+  margin-bottom: 25px;
+}
+
+section.regularBooks .container .row .col-lg-3 .img-section{
+  position:relative;
+}
+section.regularBooks .container .row .col-lg-3 .img-section i.fa-heart{
+  position:absolute;
+  top:20px;
+  left:8px;
+  font-size:23px;
+  color:white;
+}
+
+section.regularBooks .container .row .col-lg-3{
+  position:relative;
+  overflow: hidden;
+
+}
+section.regularBooks .container .row .col-lg-3 .img-section p.offMark{
+  background:black;
+  color:white;
+  text-align:center;
+  width:160px;
+  transform:rotate(45deg);
+  position:absolute;
+  top:20px;
+  right:-60px;
+  font-family:Georgia, serif;
+}
+section.regularBooks .container .row .col-lg-3 .img-section i.fa.loveMid{
+  color:red;
+}
+section.regularBooks .container .row .col-lg-3 .descript-section:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+section.regularBooks .container .row .col-lg-3 .descript-section p.starOfThis{
+  color:white;
+  float:left;
+  margin-left:5px;
+  font-size:14px;
+  margin-bottom:5px;
+}
+section.regularBooks .container .row .col-lg-3 .descript-section p.availOrNot{
+  color:white;
+  text-align: right;
+  margin-right:5px;
+  margin-bottom:5px;
+  font-size:14px;
+}
+section.regularBooks .container .row .col-lg-3 .descript-section h2.bookTitle{
+  color:white;
+  text-align:center;
+  font-size:17px;
+  margin-top:2px;
+  margin-bottom:2px;
+}
+section.regularBooks .container .row .col-lg-3 .descript-section p.writterThis{
+  color:white;
+  text-align:center;
+  font-size:15px;
+  color:#F8E0E0;
+}
+section.regularBooks .container .row .col-lg-3 .descript-section p.prePrice{
+  color:#BDBDBD;
+  float:left;
+  margin-left:30%;
+}
+section.regularBooks .container .row .col-lg-3 .descript-section p.newPrice{
+  color:#ffffff;
+  float:right;
+  margin-right:34%;
+}
+section.regularBooks .container .row .col-lg-3:hover h2.bookTitle{
+  color:#0B3B39;
+  transition:.6s;
+}
+section.regularBooks .container .row .col-lg-3:hover p.starOfThis{
+  color:#F3F781;
+  transition:.4s;
+}
+section.regularBooks .container .row .col-lg-3:hover p.availOrNot{
+  color:#088A85;
+  transition:.4s;
+}
+section.regularBooks .container .row .col-lg-3:hover p.writterThis{
+  color:white;
+}
+
+section.regularBooks .container .row .col-lg-3 p.cartAdd i{
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  background:white;
+  text-align:center;
+  padding:14px;
+  font-size:18px;
+  color:#04B404;
+}
+section.regularBooks .container .row .col-lg-3{
+  position:relative;
+}
+section.regularBooks .container .row .col-lg-3 p.cartAdd i{
+  position:absolute;
+  bottom:-56px;
+  left:-59px;
+}
+section.regularBooks .container .row .col-lg-3:hover p.cartAdd i{
+  color:#DF0101;
+  bottom:-6px;
+  left:-9px;
+  transition:.5s;
+}
+section.regularBooks .container .forShowMore{
+width:200px;
+height:35px;
+background: #088A85;
+border-radius:15px;
+cursor:pointer;
+}
+section.regularBooks .container .forShowMore p.more{
+  float:left;
+  margin-top:5px;
+  margin-left:50px;
+  color:white;
+}
+section.regularBooks .container hr{
+  height:2px;
+  color:#610B0B;
+}
+section.regularBooks .container .row{
+  margin-bottom:17px;
+}
+section.regularBooks .container .forShowMore i.fa{
+  margin-top:10px;
+  margin-left:10px;
+  color:white;
+}
+section.regularBooks .container{
+  position:relative;
+}
+section.regularBooks .container .forShowMore{
+  position:absolute;
+  left:40%;
+  bottom:-17px;
+}
+section.regularBooks .container .row .col-lg-3.forHide{
+  display: none;
+}
+section.regularBooks .container .forShowMore i.rot.changeRot{
+  transform:rotate(-90deg);
+}
+section.contact{
+  width:100%;
+  height:620px;
+  background:#F3F781;
+}
+section.contact .container{
+  margin:auto;
+}
+section.contact .container h2.contactUs{
+  color:#088A85;
+  text-align:center;
+  padding-top:25px;
+  font-family: 'Brush Script MT', cursive;
+  font-size:45px;
+}
+section.contact .container hr{
+  height:2px;
+  width:90px;
+  background:#0B4C5F;
+  margin:auto;
+}
+section.contact .container p.name{
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size:20px;
+  color:#610B38;
+  padding-left:5px;
+  margin-bottom:10px;
+
+}
+section.contact .container p.mail{
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size:20px;
+  color:#610B38;
+  padding-left:5px;
+  margin-bottom:10px;
+
+}
+section.contact .container p.msg{
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size:20px;
+  color:#610B38;
+  padding-left:5px;
+  margin-bottom:10px;
+}
+section.contact .container input{
+  border:0px;
+  color:#0A1B2A;
+  padding:3px 20px;
+  border-radius:4px;
+  width:350px;
+  margin-bottom:16px;
+}
+section.contact .container textarea{
+  border:0px;
+  padding:7px 12px;
+  color:#08298A;
+  width:350px;
+}
+section.contact .container .col-lg-5 button.submit{
+  display:block;
+  border:0px;
+  background:#FF4000;
+  border-radius:3px;
+  padding:4px 10px;
+  color:white;
+  margin-top:6px;
+}
+section.contact .container .col-lg-5 button.submit:hover{
+  background:#088A68;
+  transition:.7s;
+}
+section.contact .container .col-lg-7.total{
+  margin-top: 90px;
+  display:grid;
+  grid-template-columns: repeat(4,170px);
+  grid-auto-rows: 150px;
+  grid-gap:10px;
+  align-items: center;
+
+}
+section.contact .container .total .imgHolder:first-child{
+  grid-column:1/3;
+  grid-row:1/3;
+}
+section.contact .container .total .imgHolder:first-child img{
+  height:310px;
+  width:350px;
+  cursor:pointer;
+  border-radius:3px;
+}
+section.contact .container .total .imgHolder:nth-child(n+2) img{
+  height:150px;
+  width:170px;
+  cursor:pointer;
+  border-radius:4px;
+}
+section.contact .container .total .imgHolder{
+  position:relative;
+  overflow:hidden;
+}
+section.contact .container .total .imgHolder p.qoute{
+  border-radius:6px;
+  cursor:pointer;
+  width:100%;
+  height:100%;
+  background-color: rgba(0,0,0,0.6);
+  text-align:center;
+  color:white;
+  position:absolute;
+  top:-100%;
+  left:0%;
+}
+
+section.contact .container .total .imgHolder:nth-child(n+2) p{
+  font-size:12px;
+  padding:40px 5px;
+}
+section.contact .container .total .imgHolder:first-child p{
+  padding:120px 16px;
+}
+section.contact .container .total .imgHolder:hover p.qoute{
+  position:absolute;
+  top:0%;
+  left:0%;
+  transition:.6s;
+}
+section.lastINFO{
+  width:100%;
+  height:350px;
+  background-color:#086A87;
+  color:white;
+}
+section.lastINFO .container{
+  width:60%;
+  margin:auto;
+}
+section.lastINFO .container .row p{
+  margin-bottom:4px;
+  font-family:tahoma;
+  font-size:13px;
+  cursor:pointer;
+}
+section.lastINFO .container .row p:hover{
+  text-decoration:underline;
+  transition:.3s;
+}
+section.lastINFO .container .row h2{
+  font-family:tahoma;
+  font-size:25px;
+  padding-top:45px;
+}
+
+section.lastINFO .container .row h2.earn{
+  padding-top:15px;
+}
+section.lastINFO .container .col-4 img.logoOurs{
+  width:100px;
+  height:100px;
+  margin-top:25px;
+  margin-left:100px;
+}
+section.lastINFO .container .col-4 p.happy{
+  color:#FF8000;
+  padding-left:16px;
+  margin-left:100px;
+}
+section.lastINFO .container .col-4 p.download{
+  padding-left:16px;
+  margin-left:100px;
+}
+section.lastINFO .container .col-4 .row1 .col-lg-6 img{
+  width:160px;
+  height:65px;
+  margin-top:20px;
+  cursor:pointer;
+}
+section.lastINFO .container .row .col-lg-4 h3.follow{
+  padding-top:35px;
+  padding-left: 5px;
+}
+
+section.lastINFO .container .row .col-lg-4 a i{
+
+  font-size:20px;
+  padding-left: 10px;
+  color:white;
+}
+@media all and (max-width:479px){
+  section.caro{
+    height:330px;
+  }
+  section.caro img{
+    height:330px;
+  }
+  section.slide-book-list h2.topRate{
+    font-size:35px;
+    padding-top:15px;
+    padding-left: 10px;
+  }
+  section.slide-book-list .total-sec{
+    height:410px;
+    width:250px;
+  }
+  section.slide-book-list .all-list .total-sec .des-sec h3.book-name{
+    font-size:17px;
+  }
+  section.slide-book-list .all-list .total-sec:hover p.writter{
+    font-size:13px;
+  }
+  section.regularBooks{
+    height:1900px;
+  }
+  section.regularBooks.neew{
+    height:5240px;
+}
+section.regularBooks .container .forShowMore{
+  left:27%;
+}
+section.contact .container input{
+  padding:1px 5px;
+  width:170px;
+  font-size: 15px;
+}
+section.contact .container p.name{
+  font-size:15px;
+
+}
+section.contact .container p.msg{
+  font-size:15px;
+}
+section.contact .container p.mail{
+  font-size:15px;
+}
+section.contact .container textarea{
+  padding:7px 5px;
+  width:170px;
+  height:140px;
+}
+section.contact .container .col-lg-5 button.submit{
+  padding:4px 8px;
+}
+section.contact .container .col-lg-7.total{
+  margin-top: 0px;
+  display:grid;
+  grid-template-columns: repeat(2,110px);
+  grid-auto-rows: 110px;
+  grid-gap:10px;
+
+}
+section.contact .container .total .imgHolder:first-child{
+  grid-column:1/3;
+  grid-row:1/3;
+}
+section.contact .container .total .imgHolder:first-child img{
+  height:220px;
+  width:230px;
+  cursor:pointer;
+  border-radius:3px;
+}
+section.contact .container .total .imgHolder:nth-child(n+2) img{
+  height:110px;
+  width:130px;
+  cursor:pointer;
+  border-radius:4px;
+}
+section.contact .container .total .imgHolder p.qoute{
+  font-size:13px;
+  top:-140%;
+  left:0%;
+  padding-top:25%;
+  padding-bottom:10px;
+}
+section.lastINFO .container{
+  width:90%;
+  margin:auto;
+}
+section.lastINFO .container .row p{
+  margin-bottom:4px;
+  font-size:12px;
+}
+section.lastINFO .container .row h2{
+  font-family:tahoma;
+  font-size:18px;
+  padding-top:45px;
+}
+section.lastINFO .container .row .col-lg-4 h3.follow{
+  padding-top:55px;
+  padding-left: 5px;
+  font-size:18px;
+}
+section.lastINFO .container .row .col-lg-4 a i{
+  font-size:17px;
+  padding-left: 5px;
+}
+section.lastINFO .container .col-4 img.logoOurs{
+  width:70px;
+  height:70px;
+  margin-top:30px;
+  margin-left:35px;
+}
+
+/*fl*/
+
+section.lastINFO .container .col-4 p.happy{
+  color:#FF8000;
+  font-size: 12px;
+  margin-left:20px;
+  text-align:center;
+}
+section.lastINFO .container .col-4 p.download{
+  margin-left:20px;
+  text-align: center;
+}
+section.lastINFO .container .col-4 .row1 .col-lg-6 img{
+  width:90px;
+  height:40px;
+  margin-top:10px;
+  cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+  
+}
