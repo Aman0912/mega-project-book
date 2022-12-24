@@ -4,7 +4,7 @@ $(".all-list").owlCarousel({
 "items":3,
 "autoPlay":true,
 "itemsTablet":[768,1],
-"itemsMobile":[358,1],
+"itemsMobile":[100,1],
 "itemsDesktopSmall":[979,2],
 
 });
