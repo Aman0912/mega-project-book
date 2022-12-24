@@ -634,12 +634,12 @@ section.lastINFO .container .row .col-lg-4 a i{
   }
   section.slide-book-list{
     display: block;
-    text-align: left;
   }
   section.slide-book-list h2.topRate{
     font-size:25px;
     padding-top:15px;
     padding-left: 10px;
+    text-align: left;
   }
 
   section.slide-book-list .total-sec{
