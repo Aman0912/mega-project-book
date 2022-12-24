@@ -636,9 +636,9 @@ section.lastINFO .container .row .col-lg-4 a i{
     display: block;
   }
   section.slide-book-list h2.topRate{
-    font-size:25px;
+    font-size:30px;
     padding-top:15px;
-    padding-left: 10px;
+    padding-left: 10pxpadding-bottom:10px;
     text-align: left;
   }
 
